@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CHEMISTRY TITRATION SIMULATOR V1.0.exe" version="1.0.0.2" publicKeyToken="ce22f6414c134cfb" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="chh.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CHEMISTRY TITRATION SIMULATOR V1.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CHEMISTRY TITRATION SIMULATOR V1.0.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CHEMISTRY TITRATION SIMULATOR V1.0.exe" size="1958912">
+      <assemblyIdentity name="CHEMISTRY TITRATION SIMULATOR V1.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>w0FtHPwo6pS86zj/bi9PDQPL5Y+z0i8cqJAyxkxzU6o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CHEMISTRY TITRATION SIMULATOR V1.0.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="chh.ico" size="207865">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8DoX1GHlDE3qdqNIDysxM16lRB7bT5NxVc3pxF2geh8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EDINYANGA\ZUCKY" issuerKeyHash="ed43c5b294c767a78a289eebf6b2a2590b433bf1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6scb+9LYQvceiQF7ooJW6GIiPIHw7gnqufhCIOIbisk=</DigestValue></Reference></SignedInfo><SignatureValue>BxBLiWUd5anCbG9pIuyaKGLHho/Lh9LCOZhfxvxFyyOfL66eQezzsg4kPMjQf1RYqPH2v5Yq9Xl++gJkMJbb1C/AxQSUfGSbK9K+CDrk85LDFpzRNVVwyv9STSNgAnsVUej9xXhOta4UccLHVj7hY2FNBbY6nmNukU78Em1yKpk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qIdpdkQngRD3j30V25NLqHKLFgtwUlD/sfJANuh0OZYskwjbUQK8M6rNx9tz5nv+ht8MOS8CvdpuCHgSC/kEsa47m0u1fORkhrkvWUud81Y6L8tAMObm+dbz4hOl5eZZhNlWxbWu2AZ+s9G6+w5I1WwU1sqJGhrjFayhbhq/HGU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c98a1be22042f8b9ea09eef0813c2262e85682a27b01891ef742d8d2fb1bc7ea" Description="" Url=""><as:assemblyIdentity name="CHEMISTRY TITRATION SIMULATOR V1.0.exe" version="1.0.0.2" publicKeyToken="ce22f6414c134cfb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EDINYANGA\ZUCKY</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7YLI4r5JYvMZMK4iMlEnjMQ1RdqW6wn13cUEWDU0aEM=</DigestValue></Reference></SignedInfo><SignatureValue>EV66+1GizyANL3bfx9NoW61WvAnu7nMzWMU9ZGUNVYh9ODGrs73hCmjHzRScf4kkHcOEcPxxNTzMCQB+l9jOis2YUidjnOsvYyB6JiGFoLAsP3ryHisoVvR29zj1T4Mcm8oN+ZaserEq2pnIdXmu8swmio0CQfdKG/oWsvkKWQE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qIdpdkQngRD3j30V25NLqHKLFgtwUlD/sfJANuh0OZYskwjbUQK8M6rNx9tz5nv+ht8MOS8CvdpuCHgSC/kEsa47m0u1fORkhrkvWUud81Y6L8tAMObm+dbz4hOl5eZZhNlWxbWu2AZ+s9G6+w5I1WwU1sqJGhrjFayhbhq/HGU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQfTFsJ05ocohHfHj/3S+DLzANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ARQBEAEkATgBZAEEATgBHAEEAXABaAFUAQwBLAFkwHhcNMTgwODAxMjIxMDE1WhcNMTkwODAyMDQxMDE1WjApMScwJQYDVQQDHh4ARQBEAEkATgBZAEEATgBHAEEAXABaAFUAQwBLAFkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKiHaXZEJ4EQ9499FduTS6hyixYLcFJQ/7HyQDbodDmWLJMI21ECvDOqzcfbc+Z7/obfDDkvAr3abgh4Egv5BLGuO5tLtXzkZIa5L1lLnfNWOi/LQDDm5vnW8+ITpeXmWYTZVsW1rtgGfrPRuvsOSNVsFNbKiRoa4xWsoW4avxxlAgMBAAEwDQYJKoZIhvcNAQELBQADgYEABR12m0xDFWgCkB/6h5xa2lducHLJkOJhm0l6kORpsejEMSMW9+h370p8Xqr+pHDEG+9gjLlkQ13UFibLs80/N16Z4ldCDdTY7Plhayo8bRp7fefc1BcnpVhiFycTmn7doUCha+o9kMrOqWur9xIL0vhOPLKBj1HQWlbsrvopJYE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
